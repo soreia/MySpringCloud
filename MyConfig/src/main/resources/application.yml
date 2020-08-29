@@ -1,0 +1,17 @@
+server:
+  port: 8761
+spring:
+  application:
+    name: MyConfig
+    #配置文件在本地
+  profiles:
+    active: native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations: F:/MyProject/configFile
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka

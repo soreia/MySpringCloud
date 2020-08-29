@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: my-app
+  cloud:
+    config:
+      profile: dev
+      uri: http://localhost:8761/
+
+
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="MyApp" />
+        <module name="MySpringAdmin" />
+        <module name="MyEureka" />
+        <module name="MyConfig" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="MyApp" target="1.8" />
+      <module name="MyConfig" target="1.8" />
+      <module name="MyEureka" target="1.8" />
+      <module name="MyServlet" target="1.8" />
+      <module name="MySpringAdmin" target="1.8" />
+      <module name="MySprintAdmin" target="1.8" />
+      <module name="WatchCenter" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MyApp" options="-parameters" />
+      <module name="MyConfig" options="-parameters" />
+      <module name="MyEureka" options="-parameters" />
+      <module name="MyServlet" options="-parameters" />
+      <module name="MySpringAdmin" options="-parameters" />
+      <module name="MySprintAdmin" options="-parameters" />
+      <module name="WatchCenter" options="-parameters" />
+    </option>
+  </component>
+</project>

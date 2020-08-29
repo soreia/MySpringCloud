@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: my-spring-admin
+  cloud:
+    config:
+      profile: dev
+      uri: http://localhost:8761/
