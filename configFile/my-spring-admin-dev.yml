@@ -1,0 +1,18 @@
+server:
+  port: 8763
+spring:
+  application:
+    name: my-spring-admin
+  security:
+    user:
+      name: admin
+      password: admin
+  boot:
+    admin:
+      notify:
+        mail:
+          to: suliyaa@126.com
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8762/eureka
